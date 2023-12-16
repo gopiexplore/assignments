@@ -5,6 +5,23 @@
 */
 
 function isAnagram(str1, str2) {
+  if(str1.length !== str2.length){
+    return false;
+  }
+  str1=str1.toLowerCase();
+  str2=str2.toLowerCase();
+  let a=str1.split('');
+  let b=str2.split('');
+  a=a.sort();
+  b=b.sort();
+  for(let i=0;i<a.length;i++){
+    if(a[i]!==b[i]){
+      return false;
+    }
+  }
+  return true;
+ 
+  
 
 }
 
