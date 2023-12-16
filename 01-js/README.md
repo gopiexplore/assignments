@@ -11,6 +11,7 @@ Feel free to start doing these in any order you like.
 
 ## Testing
 1. Follow the comment above each problem to run test for that problem
+2. To test for only one file ```npx jest ./tests/filename```
 3. To tests for all the problems of this week run ```npx jest ./tests/```
 
 #### Development Setup
